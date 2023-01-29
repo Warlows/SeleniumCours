@@ -3,7 +3,7 @@ package Konfiguracja;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.time.Duration;
+
 
 public class Zadanie3 {
     public static void main(String[] args) throws InterruptedException {
