@@ -19,7 +19,7 @@ public class Zadanie3 {
         driver.navigate().forward();
         driver.navigate().refresh();
         Thread.sleep(5000); // wtrzymanie na 5 sekund
-
+        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));// Czeka 10 sekund na zaadowanie sie strony
         driver.quit();
     }
 }
