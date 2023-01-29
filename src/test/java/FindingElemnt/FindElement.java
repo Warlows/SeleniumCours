@@ -44,5 +44,7 @@ public class FindElement {
 
         // Lokalizacja listy elementów
         List<WebElement> buttons = driver.findElements(By.tagName("button")); // znajdzie wszystkie buttony na stronie
+        // alternatywa
+
     }
 }
